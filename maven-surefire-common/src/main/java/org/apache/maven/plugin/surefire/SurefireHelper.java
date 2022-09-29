@@ -298,7 +298,7 @@ public final class SurefireHelper
         {
             if ( result.getFailures() > 0 )
             {
-                msg.append( "There are test failures." );
+                msg.append( "Changed!" );
             }
             if ( isTooFlaky( result, reportParameters ) )
             {
